@@ -66,10 +66,3 @@ while true; do
   # Sleep for 1 second
   sleep 1
 done
-
-
-#==========================================================#
-# if you get error "/monitor.sh: line 8: /var/log/cpu_mem_monitor.log: Permission denied" then run following commands
-#sudo touch /var/log/cpu_mem_monitor.log
-#sudo chown $USER /var/log/cpu_mem_monitor.log
-# This will create the log file and change its ownership to your current user.
